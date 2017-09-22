@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@assign</string>
+	<string>assign</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) &lt;#Class#&gt; *&lt;#property#&gt;;</string>
+	<string>@property (nonatomic, assign) &lt;#Class#&gt; &lt;#object#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A1782851-F8F7-49F2-82D3-E48239A1F4A3</string>
+	<string>EB390FEF-351D-4E9D-9714-0FF9479BB917</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
@@ -21,6 +21,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

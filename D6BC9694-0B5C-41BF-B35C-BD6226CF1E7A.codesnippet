@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>delegate</string>
+	<string>@im</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, weak) id&lt;&lt;#protocol#&gt;&gt; &lt;#delegate#&gt;;</string>
+	<string>#if __has_include(&lt;&lt;#podHead#&gt;&gt;)
+#import &lt;&lt;#podHead#&gt;&gt;
+#else
+#import "&lt;#head#&gt;"
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>444DA5C8-FFDB-43D9-AE01-3C6BA3A218D5</string>
+	<string>D6BC9694-0B5C-41BF-B35C-BD6226CF1E7A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>delegate</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>属性</string>
+	<string>导入头文件</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
