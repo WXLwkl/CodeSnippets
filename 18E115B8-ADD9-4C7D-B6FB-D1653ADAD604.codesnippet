@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>zz</string>
+	<string>if</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#message#&gt; */</string>
+	<string>if (&lt;#condition#&gt;) &lt;#statements#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CD565BA8-CFF2-4768-8842-D1E34593E0A8</string>
+	<string>18E115B8-ADD9-4C7D-B6FB-D1653ADAD604</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>/**  */ </string>
+	<string>一行的if</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>注释</string>
+	<string>if  (line)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
