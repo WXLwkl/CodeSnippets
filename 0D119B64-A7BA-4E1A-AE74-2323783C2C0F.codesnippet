@@ -3,21 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>if</string>
+	<string>window</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if (&lt;#condition#&gt;) &lt;#statements#&gt;</string>
+	<string>window = UIWindow(frame: UIScreen.main.bounds)
+        window?.backgroundColor = .white
+        
+        window?.rootViewController = &lt;#rootViewController#&gt;
+        window?.makeKeyAndVisible()</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>18E115B8-ADD9-4C7D-B6FB-D1653ADAD604</string>
+	<string>0D119B64-A7BA-4E1A-AE74-2323783C2C0F</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>一行的if</string>
+	<string>window初始化</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>If Line</string>
+	<string>window init</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

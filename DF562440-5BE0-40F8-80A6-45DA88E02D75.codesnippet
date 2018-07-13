@@ -3,21 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>if</string>
+	<string>button</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if (&lt;#condition#&gt;) &lt;#statements#&gt;</string>
+	<string>let button: UIButton = UIButton(type: .custom)
+        button.frame = CGRect(x: 50, y: 100, width: 200, height: 100)
+        button.setTitle("点击", for: .normal)
+        button.setTitleColor(UIColor.red, for: .normal)
+        button.addTarget(self, action: #selector(&lt;#actionSel#&gt;), for: .touchUpInside)
+        self.view.addSubview(button)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>18E115B8-ADD9-4C7D-B6FB-D1653ADAD604</string>
+	<string>DF562440-5BE0-40F8-80A6-45DA88E02D75</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>一行的if</string>
+	<string>button</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>If Line</string>
+	<string>button-init</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
